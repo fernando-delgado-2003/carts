@@ -1,5 +1,21 @@
-@media (max-width: 800px) {
+/* @media (max-width: 550px) {
     .card{
         width: 85%;
+    }
+} */
+@media (min-width: 550px) {
+    .card{
+        width: calc(100% / 2 - 40px);
+    }
+}
+@media (min-width: 830px) {
+    .card{
+        width: calc(100% / 3 - 40px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .card{
+        width: calc(100% / 4 - 40px);
     }
 }
